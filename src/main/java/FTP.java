@@ -20,7 +20,7 @@ public class FTP {
         serverFactory.addListener("default", factory.createListener());
         // Cấu hình user
         PropertiesUserManagerFactory userManagerFactory = new PropertiesUserManagerFactory();
-        userManagerFactory.setFile(new File("users.properties"));
+        userManagerFactory.setFile(new File("ftp.properties"));
         userManagerFactory.setPasswordEncryptor(new ClearTextPasswordEncryptor());
         serverFactory.setUserManager(userManagerFactory.createUserManager());
 
