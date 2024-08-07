@@ -1,3 +1,4 @@
+package com.example;
 
 import org.apache.ftpserver.FtpServer;
 import org.apache.ftpserver.FtpServerFactory;
@@ -14,7 +15,7 @@ public class FTP {
         // Tạo server factory
         FtpServerFactory serverFactory = new FtpServerFactory();
         ListenerFactory factory = new ListenerFactory();
-        // Thiết lập cổng cho FTP server
+        // Thiết lập cổng cho com.example.FTP server
         factory.setPort(port);
         // Thêm listener cho server
         serverFactory.addListener("default", factory.createListener());
