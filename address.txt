@@ -1,2 +1,5 @@
 ftp://103.173.155.189:6788 admin@admin
 ftps://103.173.155.189:6789 admin@admin
+
+ftp://hoangicloudvn.duckdns.org:6788 admin@admin
+ftps://hoangicloudvn.duckdns.org:6789 admin@admin
